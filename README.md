@@ -71,6 +71,13 @@ Hence block 2 should be clicked for the first digit to be entered.
 * If the sum of the number exceeds the number of blocks present, the count should be started from block 1 again.
 For example, if the sum is 6, and the blocks present are only 4, block 2 should be clicked.
 
+### 4. Dashboard page
+![Dashboard](images/loggedin.png)
+After the user successfully logs in the following message is displayed.
+
+### 4. Not Logged in
+![Not Logged in](images/not_loggedin.png)
+If the user enters the dashboard without logging in the following message is displayed.
 
 ## Built With
 
