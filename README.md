@@ -89,7 +89,7 @@ If the user enters the dashboard without logging in the following message is dis
 
 ## Authors
 
+* **V.S.S.Gowri**
 * **S.Dinesh**
 * **Ch.Shivani**
-* **V.S.S.Gowri**
 * **B.Manoj**
