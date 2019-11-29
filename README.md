@@ -17,7 +17,7 @@ the password which is usually set up by the user during registration.
 Most of the users usually set passwords which are of strong so that
 they can be easily remembered, but this causes the brute force attack
 to be successful. But using this method, we can save accounts for brute
-force attack as they entry of passwords is restricted only to 5 times.
+force attack as they entry of passwords is generated in random and wrong attempts restricted only to 5 times.
 This method uses random generation of numbers for buttons to
 enter the password. Hence this is a suitable method for securing
 passwords.
