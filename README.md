@@ -1,7 +1,26 @@
 # SecurityPass
+This project is to make sure the password is not revealed during
+the entry if the password by the user. Whenever the user tries to enter
+the password for some login purpose, it is more prone to being noticed
+by others who may use it for wrong deeds.
 
-  This project is to make our password more secure and make it difficult to hack .This method uses random generation of numbers for
-buttons to enter the password. In this the IP address of the user is also recorded so it makes the hacker to hack it using brute force method. In this project we have given only 5 attempts and if we fail in all of the 5 attempts then the login will be locked for 24 hours. This is the suitable method for securing our passwords.
+In this the password is entered in a way different from the
+traditional login pages. Here the wrong entry of the password for 5
+times continuously will cause the account to be blocked for 24 hours.
+Also, the options provided during the entry of the password change
+randomly when the user refreshes the page or enters a wrong
+password.
+
+This saves the account from brute force attack which is used
+generally to penetrate into the accounts of users by simply guessing
+the password which is usually set up by the user during registration.
+Most of the users usually set passwords which are of strong so that
+they can be easily remembered, but this causes the brute force attack
+to be successful. But using this method, we can save accounts for brute
+force attack as they entry of passwords is restricted only to 5 times.
+This method uses random generation of numbers for buttons to
+enter the password. Hence this is a suitable method for securing
+passwords.
 
 ## Features
 1. The IP address gets noted whenever we login.
@@ -26,10 +45,6 @@ http://securitypass.epizy.com/
 
 Your system must be installed with xampp/wampp server running with Apache and MySQL servers.
 
-```
-Give examples
-```
-
 ### Installing
 
 If you want to deploy this project in you machine, import the securitypass.sql file into mysql. Change the database name in database.php.
@@ -37,38 +52,37 @@ Otherwise, you can test the implemented model( http://securitypass.epizy.com/ ).
 
 ## Running the tests
 
+### 1. Registration page
+![Registeration](images/register.png)
 
+### 2. Login page
+![Login](images/login.png)
 
-## Deployment
+### 3. Password page
+![Password](images/password.png)
 
-Add additional notes about how to deploy this on a live system
+* For example, the password is set as 123 by the user while
+registration.
+* First, the block number containing the first digit is checked. 
+* If it is present in block 1, then the number to be added to the first digit is checked in the given square boxes below. 
+Suppose 1 is to be added to the block according to the given box below, the total would be 2.
+Hence block 2 should be clicked for the first digit to be entered.
+* This process is continued for the remaining digits entry.
+* If the sum of the number exceeds the number of blocks present, the count should be started from block 1 again.
+For example, if the sum is 6, and the blocks present are only 4, block 2 should be clicked.
+
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* HTML
+* CSS
+* BootStrap
+* php
+* MySQL
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **S.Dinesh**
+* **Ch.Shivani**
+* **V.S.S.Gowri**
+* **B.Manoj**
