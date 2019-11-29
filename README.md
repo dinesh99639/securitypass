@@ -64,8 +64,8 @@ Otherwise, you can test the implemented model( http://securitypass.epizy.com/ ).
 * For example, the password is set as 123 by the user while
 registration.
 * First, the block number containing the first digit is checked. 
-* If it is present in block 1, then the number to be added to the first digit is checked in the given square boxes below. 
-Suppose 1 is to be added to the block according to the given box below, the total would be 2.
+* It is present in block 1, then the number to be added to the first digit is checked in the given square boxes below. 
+Suppose 1 is to be added to the block according to the given box below, the total would be (Block_1 + ADD_1) = 2.
 Hence block 2 should be clicked for the first digit to be entered.
 * This process is continued for the remaining digits entry.
 * If the sum of the number exceeds the number of blocks present, the count should be started from block 1 again.
