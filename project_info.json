@@ -1,5 +1,5 @@
 {
-	"name": "Github Projects",
+	"name": "SecurityPass",
 	"icon": "",
 	"desc": "This is a security application used to overcome the security issues such as keeping your password safe from prying eyes.",
 	"tech": ["HTML", "CSS", "JavaScript", "jQuery", "BootStrap", "PHP", "MySQL"],
