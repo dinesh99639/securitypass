@@ -1,8 +1,8 @@
 {
 	"name": "Github Projects",
 	"icon": "",
-	"desc": "This website is used to manage all social media at one place and list all github projects at one place.",
-	"tech": ["HTML", "CSS", "JavaScript", "jQuery", "BootStrap"],
+	"desc": "This is a security application used to overcome the security issues such as keeping your password safe from prying eyes.",
+	"tech": ["HTML", "CSS", "JavaScript", "jQuery", "BootStrap", "PHP", "MySQL"],
 
 	"from": "",
 	"to": ""
